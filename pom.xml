@@ -16,6 +16,10 @@
     <jstl.version>1.2</jstl.version>
     <spring.version>3.2.10.RELEASE</spring.version>
     <servletapi.version>3.1.0</servletapi.version>
+
+      <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
+
   </properties>
 
   <dependencies>
@@ -50,6 +54,11 @@
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.14</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version>
     </dependency>
   </dependencies>
 
